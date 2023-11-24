@@ -1,4 +1,4 @@
-import { css, setup } from 'goober';
+import { css } from '@emotion/css';
 import * as React from 'react';
 import {
   resolveValue,
@@ -9,8 +9,6 @@ import {
 import { useToaster } from '../core/use-toaster';
 import { prefersReducedMotion } from '../core/utils';
 import { ToastBar } from './toast-bar';
-
-setup(React.createElement);
 
 const ToastWrapper = ({
   id,

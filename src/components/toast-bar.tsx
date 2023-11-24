@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { styled, keyframes } from 'goober';
+import styled from '@emotion/styled';
+import { keyframes } from '@emotion/react';
 
 import { Toast, ToastPosition, resolveValue, Renderable } from '../core/types';
 import { ToastIcon } from './toast-icon';

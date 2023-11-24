@@ -1,4 +1,5 @@
-import { styled, keyframes } from 'goober';
+import styled from '@emotion/styled';
+import { keyframes } from '@emotion/react';
 
 const circleAnimation = keyframes`
 from {
